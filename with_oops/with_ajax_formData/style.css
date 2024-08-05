@@ -1,0 +1,124 @@
+a{
+    color: #fff !important;
+    text-decoration: none;
+}
+table, th, td{
+    border: 1px solid #000 !important;
+}
+th, td{
+    padding: 10px 20px;
+    font-size: 15px;
+}
+p{
+    margin-bottom: 3px !important;
+}
+
+/* ******************** Start form section styling **************************8 */
+.formHeading{
+    text-align: center;
+    font-size: 22px;
+}
+.subHeading{
+    color: #515151;
+    margin: 10px 0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+form > button{
+    display: block;
+    text-align: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    color: #fff;
+}
+.googleLogin{
+    background: #ef2f0d;
+}
+.faceBookLogin{
+    background: #223e8c;
+}
+.or{
+    color: #b6b5b5;
+}
+.or .line{
+    width: 45%;
+    height: 1px;
+    background: #b6b5b5 !important;
+}
+.inputBox p{
+    font-size: 14px;
+}
+.inputBox .input_group{
+    width: 100%;
+    display: flex;
+    & button{
+        width: 13%;
+        padding: 4px;
+        border: none;
+        outline: none;
+        background: #717171;
+        color: #fff;
+    }
+    & input{
+        &:focus{
+            outline: 1px solid #1874ed !important;
+        }
+        width: 87%;
+        padding: 4px 7px;
+        border-radius: 0, 3px 3px 0 !important;
+        border: 1px solid #515151;
+    }
+}
+.submitBtn{
+    background: #1874ed;
+    &:hover{
+        background: #237ef6;
+    }
+}
+.backLink{
+    font-size: 14.5px;
+    display: flex;
+    justify-content: space-between;
+    & a{
+        color: #1874ed !important;
+        text-decoration: none;
+    }
+}
+
+
+/* ******************* js validation css ************************* */
+.error{
+    color: #ef2f0d;
+    font-size: 14px;
+    display: block !important;
+}
+label.valid{
+    display: none;
+}
+
+
+/* ********************** Pagination ******************************** */
+.pagination{
+    margin: 10px 10px;
+    padding: 5px;
+    & ul{
+        display: flex;
+        .activeBtn, .nextBtn{
+            background: #05b505;
+            color: #fff;
+        }
+
+        & li{
+            list-style: none;
+            padding: 7px 18px;
+            background: #eee;
+            margin: 5px;
+            font-family: sans-serif;
+            color: grey;
+            cursor: pointer;
+        }
+    }
+}
